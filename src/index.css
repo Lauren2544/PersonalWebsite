@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.text-colour1 {
+  color: rgb(62, 97, 134); /* Light gray */
+}
+
+.border-colour1 {
+  border-color: rgb(62, 97, 134); /* Light gray */
+}
