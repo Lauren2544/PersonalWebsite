@@ -18,7 +18,7 @@ export default function ProjectTile({ id, name, desc, tech, date, github, projec
             <div className="text-sm text-gray-500 italic">{date}</div>
         </div>
       
-        <h2 className="text-lg font-semibold text-colour1 mb-2">{name}</h2>
+        <h2 className="text-lg font-semibold text-colour1 mb-2 mt-4">{name}</h2>
 
         <div className="mb-2 flex gap-4 text-gray-700 text-sm">
             {github && (

@@ -4,7 +4,7 @@ export function BookShelf({ year, books }) {
   return (
     <div className="my-2 relative">
       {/* Shelf date */}
-      <div className="text-4xl font-serif px-2 py-2 bg-indigo-100 text-colour1">
+      <div className="text-4xl px-2 py-2 bg-indigo-100 text-colour1">
         {year !== null ? year : <span className="block w-full">&nbsp;</span>}
       </div>
       {/* Books and Plants */}
